@@ -4,7 +4,7 @@ import cv2
 import os
 
 # Paths to load the model files (update the paths as needed)
-DIR = r"C:/Users/Suprabhat/Downloads/Colorizing-black-and-white-images-using-Python-master/Colorizing-black-and-white-images-using-Python-master"
+DIR = r"H:/Github Projects/Grayscale_to_color_Image_generation/ColorizedImage"
 PROTOTXT = os.path.join(DIR, "model/colorization_deploy_v2.prototxt")
 POINTS = os.path.join(DIR, "model/pts_in_hull.npy")
 MODEL = os.path.join(DIR, "model/colorization_release_v2.caffemodel")
